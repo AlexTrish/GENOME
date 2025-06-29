@@ -1,0 +1,22 @@
+[package]
+name = "genome"
+version = "1.0.0"
+description = "A Tauri App for Bioinformatics Analysis"
+authors = ["GENOME Team"]
+license = ""
+repository = ""
+default-run = "genome"
+edition = "2021"
+rust-version = "1.60"
+
+[build-dependencies]
+tauri-build = { version = "1.5.0", features = [] }
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+tauri = { version = "1.5.4", features = [ "window-hide", "fs-remove-file", "fs-read-dir", "window-unminimize", "window-close", "fs-rename-file", "fs-copy-file", "window-maximize", "window-start-dragging", "fs-exists", "fs-remove-dir", "window-unmaximize", "window-show", "window-minimize", "fs-create-dir", "dialog-open", "dialog-save", "fs-read-file", "fs-write-file", "shell-open"] }
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]
