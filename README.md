@@ -1,4 +1,6 @@
-<p align="center"></p>
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Roboto&weight=900&size=128&pause=1000&color=FFFFFF&center=true&vCenter=true&width=928&height=300&lines=GENOME;%F0%9F%A7%ACGENOME" alt="Typing SVG" />
+</p>
 <p align="center">
 	<a href="https://tauri.app/"><img alt="Static Badge" src="https://img.shields.io/badge/engine-Tauri-blue?style=flat&link=https%3A%2F%2Fgodotengine.org%2F"></a>
 	<a href="https://github.com/AlexTrish/GENOME/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/AlexTrish/GENOME?color=yellowgreen&link=https%3A%2F%2Fgithub.com%2FAlexTrish%2FChemG%2Freleases%2Ftag%2Fv0.0.3-alpha"></a>
