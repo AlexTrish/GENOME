@@ -7,48 +7,46 @@
 	<a href="https://github.com/AlexTrish/GENOME?tab=AGPL-3.0-1-ov-file#AGPL-3.0-1-ov-file"><img alt="GitHub License" src="https://img.shields.io/github/license/AlexTrish/GENOME"></a>
 </p>
 
-## Технические особенности
+## Technical features
 
-- **Архитектура:**
-  - Фронтенд: React.
-  - Бэкенд: Node.js.
+- **Architecture:**
+  - Frontend: React.
+  - Backend: Node.js.
 
-## Установка и запуск
+## Installation and startup
 
-### Системные требования
+### System Requirements
 
-- Windows 10+ / macOS 10.15+ / Linux (Ubuntu 20.04+ или аналогичные)
-- Поддержка Tauri и Rust (для сборки из исходников)
+- Windows 10+ / macOS 10.15+ / Linux (Ubuntu 20.04+ or similar)
+- Tauri and Rust support (for building from source)
 
-### Установка через готовый установщик
+### Installation via a ready-made installer
 
-1. Скачайте установщик для вашей ОС с [релизов на GitHub](https://github.com/AlexTrish/GENOME/releases).
-2. Запустите установщик и следуйте инструкциям.
-3. После установки запустите программу через меню Пуск (Windows), Launchpad (macOS) или соответствующий ярлык (Linux).
+1. Download the installer for your OS from [releases on GitHub](https://github.com/AlexTrish/GENOME/releases).
+2. Run the installer and follow the instructions.
+3. After installation, launch the program via the Start menu (Windows), Launchpad (macOS) or the corresponding shortcut (Linux).
 
-### Запуск из исходников (для разработчиков)
+### Launch from source (for developers)
 
 ```bash
-# Клонируйте репозиторий
+# Clone the repository
 git clone https://github.com/AlexTrish/GENOME.git
 cd GENOME
 
-# Установите зависимости
+# Establish dependencies
 npm install
 
-# Запуск программы в dev режиме
+# Running the program in dev mode
 npm run tauri:dev
 
-# Сборка программы
+# Program assembly
 npm run tauri:build
 ```
 
-## Что доступно в ChemG?
-На данный момент программа поддерживает: частичное взаимодействие с ИИ-наставником,
-просмотр конспектов по неорганической химии для 8-х классов, тестирования по
-пройденной теме.
+## What's available in GENOME?
+At the moment the program has only UI, all functionality will appear gradually.
 
 
-## Лицензия
+## License
 
-Эта программа распространяется под лицензией GPL-3.0 license. Более подробная информация приведена в файле `LICENSE`.
+This program is distributed under the GPL-3.0 license. For more information, see the `LICENSE` file.
