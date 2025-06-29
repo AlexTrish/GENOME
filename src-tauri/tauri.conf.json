@@ -17,23 +17,6 @@
         "all": false,
         "open": true
       },
-      "dialog": {
-        "all": false,
-        "open": true,
-        "save": true
-      },
-      "fs": {
-        "all": false,
-        "readFile": true,
-        "writeFile": true,
-        "readDir": true,
-        "copyFile": true,
-        "createDir": true,
-        "removeFile": true,
-        "removeDir": true,
-        "renameFile": true,
-        "exists": true
-      },
       "window": {
         "all": false,
         "close": true,
@@ -66,10 +49,10 @@
         "fullscreen": false,
         "resizable": true,
         "title": "GENOME Bioinformatics",
-        "width": 1400,
-        "height": 900,
-        "minWidth": 1200,
-        "minHeight": 700,
+        "width": 1200,
+        "height": 800,
+        "minWidth": 800,
+        "minHeight": 600,
         "decorations": false,
         "transparent": false
       }
